@@ -1,0 +1,22 @@
+<!--miniprogram/pages/orderdetail/orderdetail.wxml-->
+<view>
+  <text>货物：{{orderitem}}\n\n</text>
+</view>
+<view>
+  <text>详细地址：{{orderaddr}}\n\n</text>
+</view>
+<view>
+  <text>联系电话：{{ordertel}}\n\n</text>
+</view>
+<view>
+  <text>配送时间：{{ordertime}}\n\n</text>
+</view>
+<view>
+  <text>总金额：{{total}}\n\n</text>
+</view>
+<view>
+  <text>已完成：{{finish}}\n\n\n\n\n</text>
+</view>
+<view>
+  <button bindtap="isok">完成</button>
+</view>

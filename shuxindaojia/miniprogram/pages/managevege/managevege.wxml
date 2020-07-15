@@ -1,0 +1,23 @@
+<!--miniprogram/pages/managevege/managevege.wxml-->
+<!--miniprogram/pages/vegedetail/vegedetail.wxml-->
+<view class="c">
+  <view class="m">  
+    <image src="{{vegeimg}}" class="slide-image" />
+    <view class="tit">
+      <text>{{vegename}}</text>
+    </view>
+    <view class="pp">
+      <view class="price">
+        <text>价格</text><input bindblur='getprice' class="weui-input" auto-focus placeholder="{{vegeprice}}"/>
+        <text>重量</text><input bindblur='getweight' class="weui-input" auto-focus placeholder="{{vegeweight}}"/>
+      </view>
+    </view>
+    <view class="sm">描述：
+      <input bindblur='getdes' class="weui-input" auto-focus placeholder="{{vegedes}}"/>
+    </view>
+  </view>
+  <view class="tool">
+    <view class="tbtn add" catchtap="confirm">确定</view>
+  </view>
+</view>
+

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/recommand/recommand",
+    "pages/mainterface/mainterface",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/vegedetail/vegedetail",
+    "pages/order/order",
+    "pages/orderdetail/orderdetail",
+    "pages/allorder/allorder",
+    "pages/my/my",
+    "pages/bulletin/bulletin",
+    "pages/manager/manager",
+    "pages/managevege/managevege",
+    "pages/success/success"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/recommand/recommand",
+        "selectedIconPath": "images/sview.png",
+        "iconPath": "images/view.png",
+        "text": "全部"
+      },
+      {
+        "pagePath": "pages/mainterface/mainterface",
+        "selectedIconPath": "images/ssearch.png",
+        "iconPath": "images/search.png",
+        "text": "浏览"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "selectedIconPath": "images/scart.png",
+        "iconPath": "images/cart.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "images/suser.png",
+        "iconPath": "images/user.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

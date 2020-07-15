@@ -1,0 +1,25 @@
+<view class="tab">
+  <view class='page_row' bindtap="suo">  
+      <view class="search">  
+        <view class="df search_arr">  
+          <icon class="searchicon" size='20' type='search'></icon>  
+          <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}"/>  
+        </view>  
+      </view>  
+      <view class='sousuo'>搜索</view>  
+    </view>
+</view>
+<view class="tab-layer"></view>
+<view class="item itemjd" data-vname="{{p.vegeName}}" bindtap="viewVege" wx:for="{{list}}" wx:key="name" wx:for-item="p">
+  <view class="img">
+    <image src="{{p.vegeImg}}" mode="aspectFit" />
+  </view>
+  <view class="con">
+    <view class="nm">{{p.vegeName}}</view>
+    <view class="des">{{p.vegeDes}}</view>
+    <view class="sub">￥
+      <text>{{p.vegePrice}}\{{p.vegeWeight}}g</text>
+    </view>
+  </view>
+</view>
+

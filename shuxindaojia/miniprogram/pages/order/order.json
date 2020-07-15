@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#00CD00",
+  "navigationBarTitleText": "添加信息",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#f0f0f0",
+  "enablePullDownRefresh": false
+}

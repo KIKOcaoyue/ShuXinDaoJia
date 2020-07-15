@@ -1,0 +1,20 @@
+<!--miniprogram/pages/vegedetail/vegedetail.wxml-->
+<view class="c">
+  <view class="m">  
+    <image src="{{vegeimg}}" class="slide-image" />
+    <view class="tit">{{vegename}}</view>
+    <view class="des">{{vegedes}}</view>
+    <view class="pp">
+      <view class="price">￥
+        <text>{{vegeprice}}\</text>
+        <text>{{vegeweight}}g</text>
+      </view>
+    </view>
+    <view class="sm">描述：
+      <text>{{vegedes}}</text>
+    </view>
+  </view>
+  <view class="tool">
+    <view class="tbtn add" catchtap="addCart">加入购物车(<text class="cart-num">{{cartnum}}</text>)</view>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<!--miniprogram/pages/my/my.wxml-->
+<view>
+  <input bindblur="getpwd" auto-focus placeholder=""/>
+  <button bindtap="allorder">此页面为商家后台，请勿访问。</button>
+</view>

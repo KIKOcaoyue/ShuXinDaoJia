@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#05CD3B",
+  "navigationBarTitleText": "全部蔬果",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#f0f0f0",
+  "enablePullDownRefresh": false
+}

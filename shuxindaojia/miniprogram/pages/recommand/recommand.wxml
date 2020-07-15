@@ -1,0 +1,6 @@
+<!--miniprogram/pages/recommand/recommand.wxml-->
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+</picker>
+<view class="m">
+  <image class="mg" bindtap="gobulletin" src="{{img1}}" ></image>
+</view>

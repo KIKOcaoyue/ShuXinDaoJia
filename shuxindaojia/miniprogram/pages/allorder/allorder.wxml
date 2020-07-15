@@ -1,0 +1,16 @@
+<!--miniprogram/pages/allorder/allorder.wxml-->
+<view class="pro" data-vid="{{p.serial}}" bindtap="viewdetail" wx:for="{{plist}}" wx:for-item="p">
+  <view class="pro-con">
+    <view class="pname">
+      <view class="name">No.{{p.serial}},已完成:{{p.finished}}</view>
+      <view class="name">{{p.orderitem}}</view>
+      <!-- <text class="des">{{p.}}</text> -->
+    </view>
+    <view class="ptprice">￥{{p.total}}</view>
+  </view>
+</view>
+<view class="subs">
+  <button bindtap="subscribe">订阅消息</button>
+  <button bindtap="manage">管理商品</button>
+</view>
+

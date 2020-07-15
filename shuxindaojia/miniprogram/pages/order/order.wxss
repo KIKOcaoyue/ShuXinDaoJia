@@ -1,0 +1,10 @@
+/* miniprogram/pages/order/order.wxss */
+@import "../lib/weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+
+
+.tool{position: fixed;left: 0;bottom: 0; padding: 20rpx 0; display: flex; width: 750rpx;border-top: 1rpx solid #ddd;box-shadow: 0 -1px 5px 0 #eee;background-color: #fff; }
+.tool .sub{background-color: #09ec90;border: 1rpx solid #09ec90; color: #fff;flex:1;margin: 0 20rpx;height: 40px;line-height: 40px; text-align: center;border-radius: 3px;}
